@@ -64,17 +64,17 @@ for (let i = 0; i < transportationModes.length; i++) {
 }
 
 // Q12
-const guestList: string[] = ["Albert Einstein", "Marie Curie", "Leonardo da Vinci"];
+const guestList: string[] = ["Ali", 'Umer", "Ahmed"];
 for (let i = 0; i < guestList.length; i++) {
-  console.log(`Dear ${guestList[i]}, you are cordially invited to dinner. Please join us for an evening of stimulating conversation.`);
+  console.log(`Dear ${guestList[i]}, Please join us for dinner.`);
 }
 
-console.log("\n Albert einsten wont be able to attend because he has died \n")
+console.log("\n Ali wont be able to attend because he has died \n")
 
 // Q13
-guestList[0] = "Nikola Tesla";
+guestList[0] = "Yaseen";
 for (let i = 0; i < guestList.length; i++) {
-  console.log(`Dear ${guestList[i]}, you are cordially invited to dinner. Please join us for an evening of stimulating conversation.`);
+  console.log(`Dear ${guestList[i]}, Please join us for dinner.`);
 }
 
 // Q14
@@ -85,17 +85,17 @@ for (let i = 0; i < guestList.length; i++) {
 console.log("Great news! We found a bigger dinner table.");
 
 // Add a new guest to the beginning of the array
-guestList.unshift("Isaac Newton");
+guestList.unshift("Amaan");
 
 // Add a new guest to the middle of the array
-guestList.splice(Math.floor(guestList.length / 2), 0, "Marie Curie");
+guestList.splice(Math.floor(guestList.length / 2), 0, "Hamid");
 
 // Add a new guest to the end of the array using append()
-guestList.push("Galileo Galilei");
+guestList.push("Yasir");
 
 // Print new invitation messages
 for (let i = 0; i < guestList.length; i++) {
-  console.log(`Dear ${guestList[i]}, you are cordially invited to dinner. Please join us for an evening of stimulating conversation.`);
+  console.log(`Dear ${guestList[i]}, Please join us for dinner.`);
 }
 
 // Q15
